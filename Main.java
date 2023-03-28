@@ -105,7 +105,7 @@ public class Main {
 
         int aux = 0;
         for(int i=0; i< PEDro.length; i++){
-            if(PEDro[i].terapia.toUpperCase().contains(pesquisa.toUpperCase())){               //TODO: mudar metodo de pesquisa, pois esse vai dar erro; vai sempre encontrar um "terapia"
+            if(PEDro[i].terapia.toUpperCase().contains(pesquisa.toUpperCase())){               
                 for(int l = 0; l < anosAux.length; l++){
                     if(PEDro[i].ano == anosAux[l]){
                         contadorAux[l]++;
@@ -154,7 +154,7 @@ public class Main {
 
         int aux = 0;
         for(int i=0; i< PEDro.length; i++){
-            if(PEDro[i].problema.toUpperCase().contains(pesquisa.toUpperCase())){               //TODO: mudar metodo de pesquisa, pois esse vai dar erro; vai sempre encontrar um "terapia"
+            if(PEDro[i].problema.toUpperCase().contains(pesquisa.toUpperCase())){
                 for(int l = 0; l < anosAux.length; l++){
                     if(PEDro[i].ano == anosAux[l]){
                         contadorAux[l]++;
@@ -203,7 +203,7 @@ public class Main {
 
         int aux = 0;
         for(int i=0; i< PEDro.length; i++){
-            if(PEDro[i].parteCorpo.toUpperCase().contains(pesquisa.toUpperCase())){               //TODO: mudar metodo de pesquisa, pois esse vai dar erro; vai sempre encontrar um "terapia"
+            if(PEDro[i].parteCorpo.toUpperCase().contains(pesquisa.toUpperCase())){
                 for(int l = 0; l < anosAux.length; l++){
                     if(PEDro[i].ano == anosAux[l]){
                         contadorAux[l]++;
